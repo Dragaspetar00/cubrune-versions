@@ -1,0 +1,18 @@
+{
+    "latest":  "0.12.2",
+    "versions":  [
+                     {
+                         "version":  "0.12.2",
+                         "date":  "2026-11-23",
+                         "notes":  [
+                                       "Oyunun adı artık Cubrune: pencere başlıkları, ana menü, launcher (Cubrune Launcher.exe), oyun dosyası (cubrune.exe) ve sürüm paketleri (Cubrune-\u003csürüm\u003e.zip). Eski sürümler launcher\u0027da çalışmaya, kayıtlar açılmaya devam eder.",
+                                       "Sürümler GitHub\u0027daki Dragaspetar00/cubrune-versions deposundan dağıtılacak şekilde hazırlanır.",
+                                       "Motorun \"Test Et\" düğmesi ayrı motor klasöründe de çalışır."
+                                   ],
+                         "file":  "Cubrune-0.12.2.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.2/Cubrune-0.12.2.zip",
+                         "sha256":  "1bd002190a2377b681974c6ab78cf824931c4ee339918838ee66144f490c44e8",
+                         "size":  2876969
+                     }
+                 ]
+}
