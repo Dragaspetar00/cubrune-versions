@@ -1,18 +1,313 @@
 {
-    "latest":  "0.12.2",
-    "versions":  [
-                     {
-                         "version":  "0.12.2",
-                         "date":  "2026-11-23",
-                         "notes":  [
-                                       "Oyunun adı artık Cubrune: pencere başlıkları, ana menü, launcher (Cubrune Launcher.exe), oyun dosyası (cubrune.exe) ve sürüm paketleri (Cubrune-\u003csürüm\u003e.zip). Eski sürümler launcher\u0027da çalışmaya, kayıtlar açılmaya devam eder.",
-                                       "Sürümler GitHub\u0027daki Dragaspetar00/cubrune-versions deposundan dağıtılacak şekilde hazırlanır.",
-                                       "Motorun \"Test Et\" düğmesi ayrı motor klasöründe de çalışır."
-                                   ],
-                         "file":  "Cubrune-0.12.2.zip",
-                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.2/Cubrune-0.12.2.zip",
-                         "sha256":  "1bd002190a2377b681974c6ab78cf824931c4ee339918838ee66144f490c44e8",
-                         "size":  2876969
-                     }
-                 ]
+  "latest": "0.12.3",
+  "versions": [
+    {
+      "version": "0.12.3",
+      "date": "2026-11-23",
+      "notes": [
+        "Sürüm arşivi: 0.2.0'dan bu yana bütün sürümler launcher'ın Sürümler sekmesinden indirilip oynanabilir.",
+        "0.12'den eski sürümler kendi veri klasöründe çalışır (data/eski/<sürüm>): sonsuz dünyalarını ve yeni içerik dosyalarını tanımadıkları için ortak kayıtlara dokunmazlar."
+      ],
+      "file": "Cubrune-0.12.3.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.3/Cubrune-0.12.3.zip",
+      "sha256": "9f7c9d5e982c3a24ee7580b18e233b7ae6a2b6c38dbd6e7c8c3a03ebbc4829c7",
+      "size": 2876833
+    },
+    {
+      "version": "0.12.2",
+      "date": "2026-11-23",
+      "notes": [
+        "Oyunun adı artık Cubrune: pencere başlıkları, ana menü, launcher (Cubrune Launcher.exe), oyun dosyası (cubrune.exe) ve sürüm paketleri (Cubrune-<sürüm>.zip). Eski sürümler launcher'da çalışmaya, kayıtlar açılmaya devam eder.",
+        "Sürümler GitHub'daki Dragaspetar00/cubrune-versions deposundan dağıtılacak şekilde hazırlanır.",
+        "Motorun \"Test Et\" düğmesi ayrı motor klasöründe de çalışır."
+      ],
+      "file": "Cubrune-0.12.2.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.2/Cubrune-0.12.2.zip",
+      "sha256": "1bd002190a2377b681974c6ab78cf824931c4ee339918838ee66144f490c44e8",
+      "size": 2876969
+    },
+    {
+      "version": "0.12.1",
+      "date": "2026-11-23",
+      "notes": [
+        "Sürümler GitHub Releases üzerinden paylaşılabilir: release.ps1 -GitHub kullanici/depo ile versions.json her zip'in GitHub indirme adresini içerir. Launcher yalnızca https://github.com/.../releases/download/... adreslerini kabul eder ve SHA-256'yı yine doğrular."
+      ],
+      "file": "Cubrune-0.12.1.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.1/Cubrune-0.12.1.zip",
+      "sha256": "bb672aebd7ce7058e0eb2d92019bc256532ec40235b0bcf8b1db0cfbde1b3d23",
+      "size": 2875050
+    },
+    {
+      "version": "0.12.0",
+      "date": "2026-11-23",
+      "notes": [
+        "Sonsuz dünya: yeni dünyalar sınırsız; gittikçe arazi oluşur, uzaklaşınca kaydedilip bellekten çıkar. Eski (sabit boyutlu) dünyalar aynen açılır; istenirse yeni dünyada sabit boyut da seçilebilir.",
+        "Harita sonsuz dünyada gezdiğin her yeri hatırlar ve kaydeder.",
+        "Pencereden çıkınca (alt-tab, simge durumu) oyun duraklar; duraklarken dünya durur (zaman, yaratıklar, açlık).",
+        "Oyun ve motor ayrıldı: oyunda editör yok, motor ayrı klasörde (dist\\engine) dağıtılır. Kod Cargo workspace oldu (motor kütüphanesi, oyun, motor, launcher, MCP).",
+        "Sürüm paylaşımı: her sürüm için zip ve sürüm listesi (versions.json) oluşur. Launcher'da güncelleme adresi yazılınca yeni sürümler listelenir, indirilir, SHA-256 ile doğrulanıp kurulur.",
+        "Sürüm kuralı: küçük değişikliklerde son sayı, büyüklerde ortadaki sayı artar. Eski kayıtlar ve içerik yeni sürümlerde açılır.",
+        "Kumtopu gibi gövdesi yere yakın yaratıklar artık pençe sallamıyor."
+      ],
+      "file": "Cubrune-0.12.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.12.0/Cubrune-0.12.0.zip",
+      "sha256": "352e71b2214560115fb61dd302b1d2b7b19c9ae668807ab4cd8d452c2baa6d7d",
+      "size": 2875577
+    },
+    {
+      "version": "0.11.0",
+      "date": "2026-11-23",
+      "notes": [
+        "Yaratıklar yürüyor: modelin bacakları otomatik bulunur ve adım atar (dört ayaklılarda çapraz, iki ayaklılarda sırayla).",
+        "Malzemeler düzenlenebilir (Dünya > Malzemeler): vuruş, kırılma ve adım sesi, ses perdesi, hangi aletin tam güçle kazdığı, çatlak ve parça şekli.",
+        "Dünya üretimi düzenlenebilir (Dünya > Üretim): kömür, demir, altın, kristal miktarı, demir ve altın derinliği, mağara genişliği, bitki yoğunluğu, biyom başına ağaç olasılığı.",
+        "Ek düşme tabloları: blok ve yaratıklara şansa bağlı ek eşyalar (adet aralığı, yüzde). Yapraktan elma artık bu tablodan gelir.",
+        "Bloklarda sertliğin altında kaç vuruşta kırıldığı yazar (el ve uyan aletlerle).",
+        "Haritada hayatta kalmada sadece gezdiğin yerler açık; dünya kaydıyla saklanır.",
+        "El sekmesi sade: anlaşılır adlı kaydırıcılar, önizlemede sürükleyerek kolu/eşyayı taşı, tekerlekle ayarla; X/Y/Z kaydırıcıları \"Gelişmiş\" altında.",
+        "Modellerde de dokulardaki renk seçici kullanılıyor; model seçili yaratıkta gereksiz doku kutuları gizli.",
+        "Haritadan başlayan dünyada başlangıç eşyaları verilir; büyük dokulu eşyaların eldeki şekli tüm dokudan çıkar."
+      ],
+      "file": "Cubrune-0.11.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.11.0/Cubrune-0.11.0.zip",
+      "sha256": "d861382d659d3cbc4acbfa262e3f55a4936503edf6b0d634acaedace410077e2",
+      "size": 2944033
+    },
+    {
+      "version": "0.10.1",
+      "date": "2026-11-22",
+      "notes": [
+        "Yeni itemler",
+        "Genel hata düzeltmeler"
+      ],
+      "file": "Cubrune-0.10.1.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.10.1/Cubrune-0.10.1.zip",
+      "sha256": "3ccc784cfd9f2dfe3fc035f4afc690f9c7913c65bdadf9bb287a74d7367a2111",
+      "size": 2939882
+    },
+    {
+      "version": "0.10.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Yaratıklar artık voxel modelli: Pofuduk, Zıpzıp ve Gölge yeniden yapıldı, 6 yeni yaratık eklendi (Dikenboynuz, Kumtopu, Ayaz, Yosunsırt, Taşkene, Bakbak). Yürürken sallanıp zıplıyor, vurulunca kızarıyor. Mevcut içeriğe bir kez eklenir.",
+        "Motor modelleme: fırça boyutu, sürükleyerek koyma/silme/boyama, Kutu ve Küre araçları (sürükleyerek taban, tekerlekle yükseklik), Kazı modu, katman kesiti (içini düzenlemek için), geri al, orta tuşla kaydırma, kamerayı ortala.",
+        "Motor dokular: 32 ve 64 piksel büyük dokular, PNG resim yükleme; hızlı çizgide boşluk kalmıyor.",
+        "Motor: Haritalar sekmesi. Oyun modları için harita tasarla (düz, doğal ya da boş başlangıç, 64-256 blok), blok koy/kır, kutu doldur/kaz, doğma yerini seç. Yeni dünya oluştururken \"Harita\" listesinden seçilir.",
+        "Yapay zekâ bağlantısı (MCP): mcp.exe ile Claude gibi bir asistan blokları, eşyaları, yaratıkları, tarifleri, modelleri, dokuları ve dünya ayarlarını düzenleyebilir. Motor açıkken dosyalar değişirse kendini yeniler.",
+        "Launcher: skin çizici (parça adlarıyla tuval, renk seçici, geri al, canlı 3D). Şablon İndirilenler klasörüne iner; bulunamazsa klasör sorulur. 3D önizleme daha yavaş dönüyor."
+      ],
+      "file": "Cubrune-0.10.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.10.0/Cubrune-0.10.0.zip",
+      "sha256": "e6d5df6caca3d512d800fc4eb223146cd571704d60c38675c8ee357bdc13332c",
+      "size": 2869953
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Harita geldi: M tuşu ya da envanterdeki HARİTA sekmesi. Dünyanın üstten görünümü, tepe şekilleri gölgeli; tekerlekle yakınlaş, sürükleyerek kaydır, C ile kendine dön. Kırmızı sen, mavi başlangıç noktası.",
+        "Tariflerde alternatif malzeme: bir malzemenin yerine başka türler de kabul edilebilir. Çubuk ve tahta aletler artık her çeşit tahtayla yapılır. Eski tariflere bu bir kez eklenir.",
+        "Motor tarifleri: ürün ve malzemeler simgeye tıklayıp sağdaki aranabilir tablodan seçilerek yapılır; \"+ alternatif\" ile başka türler eklenir.",
+        "Motor modelleri: tuval boyutu ayarlanabilir (genişlik, yükseklik, derinlik ayrı, 64'e kadar). Hazır boyutlar: 16 blok, 32 yaratık, 24x40 uzun, 64 büyük. Yaratıklarda model yaratığın boyuna sığdırılır.",
+        "Motor: Düşen ve Model alanları artık yazıyla değil listeden seçiliyor.",
+        "Motor: soldaki listelerde arama kutusu, öğe sayısı ve kaydırma çubuğu.",
+        "Motor: Dön ve 3B düğmeleri önizlemenin köşesine taşındı; üst çubuk dar pencerede taşmıyor.",
+        "Motor Dünya sekmesine Oyuncu bölümü: yürüme, koşma, eğilme, uçma hızı, zıplama, yerçekimi, en fazla can ve tokluk, açlık hızı, yemek değeri, düşme hasarı, erişim mesafesi.",
+        "Motor Yaratıklar: fark etme mesafesi, saldırı arası, kovalama hızı, zıplama, sürü büyüklüğü."
+      ],
+      "file": "Cubrune-0.9.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.9.0/Cubrune-0.9.0.zip",
+      "sha256": "f81e1cb0d21b60e87c83f7e60da5cb447334be01e5f65a42b5959b6341415d1f",
+      "size": 2758225
+    },
+    {
+      "version": "0.8.1",
+      "date": "2026-11-22",
+      "notes": [
+        "Kırılan parçaların durma süresi kısaltıldı."
+      ],
+      "file": "Cubrune-0.8.1.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.8.1/Cubrune-0.8.1.zip",
+      "sha256": "e3947e79f814d9b5c91bbca8bbc7982a9e43d34c6cd757307369a0a76d832950",
+      "size": 2755586
+    },
+    {
+      "version": "0.8.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Motor: bloklara doku seçme düzeldi. Doku kutusuna tıklayınca 3B önizleme kapanır, doku tablosu açılır.",
+        "Motor: her sayı ayarında - / + düğmeleri, üzerine gelince ok tuşlarıyla ince ayar, çift tık ya da sağ tıkla sayı yazma.",
+        "Motor boyama: geri al (Z), renk seçici (renk tonu + parlaklık kutusu), son kullanılan renkler.",
+        "Motor: yeni Dünya sekmesi. Gün uzunluğu, gece hızı, gökyüzü/ufuk/gün batımı/güneş renkleri, bulut miktarı ve hızı, yıldız, sis, güneş gücü, kırılan parçaların ve tozun kalma süresi. Önizlemede gökyüzü canlı değişir.",
+        "Motor: Test Et. Küçük, sabit bir test dünyası açar: yaratıcı mod, kaydedilmez, her açılışta sıfırlanır. Kaydedilmemiş değişiklik varsa önce kaydeder.",
+        "Motor: Sürüm sekmesinin adı Yayınla oldu ve Kaydet ile farkı yazıyor. Kaydet değişiklikleri hemen her yerde geçerli yapar; Yayınla sadece launcher'a yeni sürüm ekler. \"Geri Al\" düğmesinin adı Vazgeç oldu.",
+        "Motorun yazıları artık piksel değil, düz ve okunaklı (DejaVu Sans). Oyunun kendi ekranları piksel yazıyla kalır."
+      ],
+      "file": "Cubrune-0.8.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.8.0/Cubrune-0.8.0.zip",
+      "sha256": "1cf0dbbdb1e93b1c783adf9b040b9c45266439180a76873c10757a3d795e67fc",
+      "size": 2734256
+    },
+    {
+      "version": "0.7.1",
+      "date": "2026-11-22",
+      "notes": [
+        "Envanteri açınca gelen cızırtı giderildi: dünya gizlenince kare hızı binlere çıkıyor, ayakta dururken saniyede yüzlerce adım sesi çalıyordu.",
+        "Ayarlar yenilendi: Grafik, Ses ve Kontroller sekmeleri. Yeni: parlaklık, görüş alanı, tam ekran, kare sınırı, kamera sallanması, efekt ve adım sesi ayrı, fareyi ters çevirme.",
+        "Tam ekran: ayarlardan ya da her yerde F11.",
+        "Esc menüsü büyüdü: büyük düğmeler, ayarlar menünün içinde açılır.",
+        "Envanterdeki karakter sabit bir model: senin skininle, düz duruşta ve kendi ışığında görünür (gece ya da mağarada kararmaz).",
+        "Launcher'daki 3D skin önizlemesi artık görünüyor.",
+        "Küçük yazıda \"ç\" büyük \"Ç\" görünüyordu, düzeldi. Taşan yazılar kısaltıldı ya da iki satıra bölündü.",
+        "Gökyüzünde ve ana menüde yıldızlar sütun gibi diziliyordu, düzeldi; menü arka planı yine kayıyor.",
+        "Açılır listelerde 10'dan fazla seçenek varsa kaydırma çubuğu görünür."
+      ],
+      "file": "Cubrune-0.7.1.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.7.1/Cubrune-0.7.1.zip",
+      "sha256": "412ebbbf8b26bc77ae5e1d8ebeceddebc746c2463377ff9c874a61de841ed882",
+      "size": 1919975
+    },
+    {
+      "version": "0.7.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Skin sistemi: karakter sabit bir model, görünümü 64x64 PNG skin dosyasından gelir (yaygın skin düzeniyle uyumlu, hazır skin editörleriyle çizilebilir).",
+        "İkinci katman: şapka, saç, takı, maske, ceket, kol ve pantolon üstü yarım piksel büyük çizilir; karakterin üstünde ayrı durur, yüzüne yapışık değil.",
+        "Birinci şahıstaki kol da artık senin skininden çiziliyor.",
+        "Launcher'da Skinler bölümü: skinler 3D döner önizlemeyle görünür; dosya seçerek ya da pencereye sürükleyerek ekle, kullan, sil, şablonu kaydet.",
+        "Bütün seçimler artık açılır liste: launcher'da sürüm seçimi, motorda malzeme/detay/şekil vb., oyunda ayarlar ve dünya oluşturma.",
+        "Yazı tipi kalın (Pixel Operator Bold), soluk yazılar daha açık: her yer daha okunaklı.",
+        "Motor: Sürüm sekmesi. Yeni sürüm numarası ve \"neler var\" maddelerini yazıp YAYINLA; içerik (bloklar, eşyalar, modeller, dokular, el duruşu) isteğe bağlı olarak o sürüme dondurulur ve launcher'da hemen görünür.",
+        "Envanter açıkken karakter portresi her zaman görünür (arazi kapatamaz)."
+      ],
+      "file": "Cubrune-0.7.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.7.0/Cubrune-0.7.0.zip",
+      "sha256": "e465610ad8f3597c387734c4cd9edf162a264f4140da5fde2f953d9dbb858060",
+      "size": 1899787
+    },
+    {
+      "version": "0.6.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Yeni envanter ekranı (Tab ya da E). Solda karakterin (sürükleyerek çevrilir), zırh yuvaları (yakında) ve can/tokluk durumu.",
+        "Cep Üretimi: arama, kategoriler, \"yapılabilenler\" filtresi, kaç kez üretilebileceğini gösteren rozetler, sahip olduğun/gereken malzeme sayıları, Üret / x10 / Tümü.",
+        "Envanter: Shift+tık hotbar ile çanta arasında taşır, Sırala düğmesi çantayı düzenler. Yaratıcı modda B ile Yaratıcı Araçlar sekmesi.",
+        "Karakter artık görünüyor: V ile birinci şahıs, arkadan ve önden kamera arasında geçilir. Kamera duvarlara girmez; karakter yürür, eğilir, vurur ve elindekini tutar.",
+        "Motor: \"El\" sekmesi. Kolun omuz konumu, yönü, dönüşü, uzunluğu ve kalınlığı; aletlerin, blokların ve düz eşyaların konumu, dönüşü ve boyutu; animasyon şiddetleri kaydırıcılarla ayarlanır. Herhangi bir eşyayla, vuruş ve yürüme oynatılarak canlı önizlenir. Kaydedilince oyun bu duruşu kullanır (content/viewmodel.toml)."
+      ],
+      "file": "Cubrune-0.6.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.6.0/Cubrune-0.6.0.zip",
+      "sha256": "ad414ae249dcfe2bc544214b1b2b801d7b3eb87c2806c4e202b1580c569ba646",
+      "size": 1839440
+    },
+    {
+      "version": "0.5.3",
+      "date": "2026-11-22",
+      "notes": [
+        "Kol artık her zaman görünüyor: sağ alttan çapraz yukarı kalkıyor; eşyalar, bloklar ve aletler kolun ucunda, yumruğun üstünde duruyor.",
+        "Animasyonlar: nefes alma, yürürken sallanma, fareyle dönerken kolun geriden gelmesi, eşya değiştirince kolun inip kalkması, düşerken hafif oynama.",
+        "Vuruş artık kolun tamamını omuzdan döndürüyor; eşya kolla birlikte savruluyor."
+      ],
+      "file": "Cubrune-0.5.3.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.5.3/Cubrune-0.5.3.zip",
+      "sha256": "8a6de47e19c647e8450dc78b2b6516cd0c7a581b187c2cebc8b14e043068e535",
+      "size": 1795962
+    },
+    {
+      "version": "0.5.2",
+      "date": "2026-11-22",
+      "notes": [
+        "Eldeki görünüm baştan yapıldı: aletler sağ alt köşede, sap elde, ucu sol yukarıda; yiyecekler ve malzemeler dik ve küçük; bloklar 45 derece dönmüş küp; boş elde kalın bir kol.",
+        "Çiçek ve bitkiler elde ve yerde artık düz kâğıt değil, kalınlığı olan pikselli bir model.",
+        "Eşya modelleri temiz: ön ve arka yüz tek parça, sadece kenarlarda kalınlık (piksel aralarında çizgi yok).",
+        "Eldeki eşya artık güneşte parlayıp beyazlamıyor; kameraya göre sabit, yumuşak bir ışık alıyor."
+      ],
+      "file": "Cubrune-0.5.2.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.5.2/Cubrune-0.5.2.zip",
+      "sha256": "72430aae974cba8c60528edf928de55d499bda02513c65a9e5303a769eb48bd5",
+      "size": 1796150
+    },
+    {
+      "version": "0.5.1",
+      "date": "2026-11-22",
+      "notes": [
+        "Düzeltme: göller dağların ve blokların arkasından görünüyordu (su çizilirken derinlik testi kapalıydı).",
+        "run.bat artık launcher'ı açıyor; oyunu doğrudan başlatmak için dev.bat."
+      ],
+      "file": "Cubrune-0.5.1.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.5.1/Cubrune-0.5.1.zip",
+      "sha256": "6689b9b08dcf8670e4ec180e8872df6395c0a5647e1ca7763889b3f3516c46d2",
+      "size": 1804706
+    },
+    {
+      "version": "0.5.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Yeni yazı tipi: Pixel Operator (CC0). Pikselli, orantılı ve okunaklı; Türkçe harfler destekleniyor. Menüler, editör ve launcher yeniden hizalandı.",
+        "Motor: Modeller sekmesi. 16x16x16 voxel modelleri 3B görünümde piksel piksel kur (ekle, sil, boya, renk al, X ekseninde ayna, bloktan başlat). Bloklara, eşyalara ve yaratıklara \"Model\" alanıyla ata.",
+        "Önizleme artık kendiliğinden dönmüyor: \"Dönüş\" düğmesiyle aç/kapat, sağ tuşla sürükleyerek çevir, tekerlekle yakınlaştır.",
+        "Oynarken fare artık pencereden kaçmıyor.",
+        "Su: kıyıda blok kırınca su boşluğa akıyor; göl kenarlarında ve mağara tavanlarında havada asılı su duvarları kalmıyor.",
+        "Eğilirken kenardan düşmüyorsun; zıplarsan ya da bir yaratık vurursa düşebiliyorsun (geri tepme eklendi)."
+      ],
+      "file": "Cubrune-0.5.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.5.0/Cubrune-0.5.0.zip",
+      "sha256": "8da6378b4f8f7ef4b19963605071ceceae5815fb2818a26c1f9557758e4a61c9",
+      "size": 1805366
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-11-22",
+      "notes": [
+        "Oyun motoru artık ayrı bir uygulama (launcher'daki Motor düğmesi): blok, doku, eşya, yaratık ve tarif düzenleme, canlı 3B önizleme, Oyunu Başlat.",
+        "Editöre tarif sekmesi: üretim tariflerini ekle, düzenle, sil.",
+        "El ve eşya duruşu klasik blok oyunlarındaki gibi: alet büyük ve kameraya dönük sağ altta, boş elde kol, blok yan dönmüş.",
+        "Elde tutulan eşya artık gölgede kararmıyor.",
+        "Yaratık modelleri yenilendi: yüz sadece önde, kafa, kulak, kuyruk, sallanan bacak ve kollar.",
+        "Kontroller: Ctrl koşar, Shift eğilir (eğilince kenardan düşmezsin), uçarken Shift iner.",
+        "Yüzerken kıyıya doğru ilerleyince sudan çıkabiliyorsun.",
+        "Doğma noktası ve tapınak artık göl içine denk gelmiyor."
+      ],
+      "file": "Cubrune-0.4.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.4.0/Cubrune-0.4.0.zip",
+      "sha256": "eb087851ed77180afdf64e0e3b39c22403198e2dbaa7bddb9245d7f348dc5439",
+      "size": 1736210
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-11-21",
+      "notes": [
+        "Launcher: oyuncu adı, sürüm seçimi, arşivlenmiş sürümler, ortak veri klasörü.",
+        "Ses düzeltmesi: yüksek FPS'te ayak sesi her karede çalıyordu (sürekli cızırtı). Artık adım başına bir kez.",
+        "Aletler yeniden çizildi (anahat, gölge, ahşap sap) ve elde gerçek bir tutuşla, bilekten sallanarak duruyor.",
+        "Su: kıtalarda göller, yüzme, saydam ve dalgalı su yüzeyi.",
+        "Üretim: envanterde (E) tarifler; ağaçtan tahta, çubuk, aletler, cam, tuğla ve daha fazlası.",
+        "Açlık: koşmak acıktırır, yemek yiyince doyarsın, aç kalınca can azalır.",
+        "Kırılan bloklar ve yaratık ganimetleri yere düşer, üzerinden geçince toplanır. Q ile eşya bırakılır. Ölünce envanter yere saçılır.",
+        "Hayatta kalma klasik başlar: boş elle ağaç kır, tahta ve çubuk üret, kazmanı yap.",
+        "Kayıtlar blok paletini saklar: editörde blok eklemek/silmek dünyaları bozmaz. Eski v0.1 dünyası otomatik taşınır.",
+        "Yeni sürümün varsayılan dokuları, senin boyamadığın dokulara otomatik uygulanır.",
+        "Mağara içleri daha az detay geometrisi alır: aynı görüşte 3-4 kat daha az vertex."
+      ],
+      "file": "Cubrune-0.3.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.3.0/Cubrune-0.3.0.zip",
+      "sha256": "ac480632f629da54ba8773925a80f312d7a7e92bfcbbac6e57c7df4ec1bfe7f1",
+      "size": 1688500
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-11-21",
+      "notes": [
+        "Ana menü, dünya listesi ve dünya oluşturma (tohum, mod, tip, boyut ve arazi ayarları).",
+        "Biyomlar: çayır, orman, karlı tayga, çöl, dağlar. 42 blok, pikselli bitkiler.",
+        "Yaratıklar: Pofuduk, Zıpzıp, Gölge. Hayatta kalma ve yaratıcı modları, envanter.",
+        "Oyun içi editör: blok, doku, eşya ve yaratık düzenleme.",
+        "Not: bu sürüm kayıtlarını ve içeriğini kendi klasöründe tutar."
+      ],
+      "file": "Cubrune-0.2.0.zip",
+      "url": "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.2.0/Cubrune-0.2.0.zip",
+      "sha256": "3daa227aafa1ca40d4c198d1130d4e6b40fd3f1f2e4975d3379e2f2fcd3ad3bb",
+      "size": 1630990
+    }
+  ]
 }
