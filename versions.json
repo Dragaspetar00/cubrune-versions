@@ -1,6 +1,25 @@
 {
-    "latest":  "0.13.0",
+    "latest":  "0.14.0",
     "versions":  [
+                     {
+                         "version":  "0.14.0",
+                         "date":  "2026-11-24",
+                         "notes":  [
+                                       "Su ve lav artık gerçekten akıyor: önce aşağı düşer, altı doluysa yana yayılır (su 7, lav 3 blok), kaynağı kesilince çekilir. Havada asılı su katmanları gitti. Yan yana iki su kaynağı yenisini yapar.",
+                                       "Lav: yeni blok, ışık saçar, içine girince yakar. Suyla buluşunca kaynak lav obsidyene, akan lav kırıktaşa döner.",
+                                       "Kovalar: boş kovayla su ya da lav kaynağı alınır, dolu kova istenen yere dökülür (bakır külçeden yapılır).",
+                                       "Dünya 256 blok yüksekliğinde. Yeni dünyalarda zemin 64 blok yukarıda, altı katman kayasına kadar dolu: derin taş, büyük mağara boşlukları, dipte lav gölleri.",
+                                       "Mağara biyomları: kristal mağaraları (kristal ve ışıltaş), yosunlu mağaralar (ışıldak mantarları), lav bölgesinde bazalt.",
+                                       "Yer altı derinleştikçe kararır; mağaradayken sis ve gökyüzü ışığı da kısılır.",
+                                       "Yeni bloklar: katman kayası, derin taş ve tuğlası, obsidyen, lav, bakır ve yakut cevheri, bakır ve yakut blok, ışıldak mantar.",
+                                       "Yeni eşyalar: ham bakır, bakır külçe, yakut, kova, su ve lav kovası, yakut alet takımı (en güçlüsü), ışıldak çorbası.",
+                                       "Eski dünyalar aynen açılır ve aynı araziyle büyümeye devam eder (eski yüksekliğin üstü boş gökyüzü olarak eklenir)."
+                                   ],
+                         "file":  "Cubrune-0.14.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.14.0/Cubrune-0.14.0.zip",
+                         "sha256":  "ecfc1030df3cf2bf874f2ed258465b756426a91c85d9bd074c13cdf29883be35",
+                         "size":  2953657
+                     },
                      {
                          "version":  "0.13.0",
                          "date":  "2026-11-24",
