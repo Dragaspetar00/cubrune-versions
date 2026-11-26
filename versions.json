@@ -1,6 +1,19 @@
 {
-    "latest":  "0.22.0",
+    "latest":  "0.22.1",
     "versions":  [
+                     {
+                         "version":  "0.22.1",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Elde taşınan fener ve meşale ile pişiren fırınların ışığı artık duvarların arkasına geçmiyor. Bu ışık da bloktan bloğa yayılıyor.",
+                                       "Dolu çıkış rafıyla bekleyen fırın artık durmadan ışık vermiyor.",
+                                       "Zırhın omuz parçaları kol kaldırınca kaskın içine girmiyor. Kaskın yanak ve ense korumaları omuzlara takılmıyor."
+                                   ],
+                         "file":  "Cubrune-0.22.1.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.22.1/Cubrune-0.22.1.zip",
+                         "sha256":  "02e60063ae1ec74d56f18e55cdbb627549245dd5dfeaa82d967ea75ac89e0471",
+                         "size":  3633203
+                     },
                      {
                          "version":  "0.22.0",
                          "date":  "2026-11-26",
