@@ -1,6 +1,17 @@
 {
-    "latest":  "0.22.1",
+    "latest":  "0.22.2",
     "versions":  [
+                     {
+                         "version":  "0.22.2",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Pişiren fırınlar yalnızca 48 blok yakınındayken ışık verir. Uzaklaşınca ışıkları komşu bölgelerde asılı kalmaz."
+                                   ],
+                         "file":  "Cubrune-0.22.2.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.22.2/Cubrune-0.22.2.zip",
+                         "sha256":  "4c0b7776c6038c1beb949a9f0bb35af8a4b55c8c8ea529bbea98ea47db5a0e98",
+                         "size":  3632977
+                     },
                      {
                          "version":  "0.22.1",
                          "date":  "2026-11-26",
