@@ -1,6 +1,152 @@
 {
-    "latest":  "0.14.0",
+    "latest":  "0.22.0",
     "versions":  [
+                     {
+                         "version":  "0.22.0",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Işık Çağı: güneş ışığı gökten iner, mağara ağızlarından içeri süzülür ve duvarlarda kesilir. Kapalı odalar ve derin mağaralar gerçekten karanlık.",
+                                       "Fener, meşale, lav ve ışıltı taşı sıcak, kristal ve ışıltılı mantarlar soğuk ışık yayar. Işık bloktan bloğa yayılır, duvarın arkasına geçmez ve blok kırıp koyunca anında güncellenir.",
+                                       "Geceler kararır, ışık kaynakları öne çıkar. Yaratıklar, düşen eşyalar, karakter ve eldeki eşya bulunduğu yerin ışığını alır. Yarım basamak ve kapı gibi parçalar gün ışığını biraz kısar.",
+                                       "Zırh geldi: kask, göğüslük, dizlik ve çizme için dört yuva. Deri, bakır, demir, çelik ve yakut takımları üretilebilir, karakterin üzerinde görünür ve yaratık saldırılarının hasarını azaltır. Envanterde Shift + tık ile giyilir.",
+                                       "Fırın ve Aşçı Ocağı tarifleri boş elle Shift + sağ tık ile açılır. Boşta duran fırın artık yandaki sandıktan kendi kendine malzeme harcamaz.",
+                                       "Düşen eşyalar ve ölünce bırakılan çanta dünyayla birlikte kaydedilir. Bozuk ayar, kayıt ve içerik dosyaları üzerine yazılmaz, .bak kopyası saklanır.",
+                                       "Köylülerin uzaklaşıp dönünce çoğalması, çanta sıralarken ve yüklerken eşya kaybı ve bozuk bir bölge dosyasının tüm kaydı durdurması düzeltildi.",
+                                       "Işık verisi bellekte yer kaplar: zayıf bilgisayarlarda görüş mesafesini düşürmek gerekebilir. 0.22 dünyası daha eski bir sürümle açılırsa giyilen zırh kaybolur."
+                                   ],
+                         "file":  "Cubrune-0.22.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.22.0/Cubrune-0.22.0.zip",
+                         "sha256":  "5a38616c8c855c355f5a26925ea64fdfc3c14cdfc745b3e0635051dd2dfdf970",
+                         "size":  3627849
+                     },
+                     {
+                         "version":  "0.21.0",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Köy evleri ayrı zemin parsellerine oturur. Temeller, yollar ve tarlalar arazinin yüksekliğini takip eder.",
+                                       "Çit ve çit kapısı 1,5 blok yüksekliğinde. Yapı parçalarının sertliği alet ve malzemeye göre uygulanıyor.",
+                                       "Motor’da çit, kapı ve diğer yapı parçaları gerçek şekilleriyle önizleniyor. Köylü ve çiftlik hayvanı modelleri elden geçirildi.",
+                                       "Üçüncü şahıs kamerası sağ omuzdan bakıyor ve nişangâh merkezde kalıyor. Bilek, zıplama, yüzme ve ısırma pozları yenilendi.",
+                                       "Karanlık mağara ve odalarda gündüz de yaratık doğabilir. Yakındaki oyuncular ve ışık kaynakları doğmayı engelliyor.",
+                                       "Elmas kristalden ayrı. Kobalt, nikel ve platin cevherleri ile yeni yeraltı altın damarları eklendi.",
+                                       "Kova demirden de üretilebiliyor. Kil testiyi fırınlayıp su taşıyabilirsin.",
+                                       "Fantozzi, TinyWorlds, Tito ve StarNinjas’ın CC0 kayıtlarıyla yüzeye göre adım ve ısırık sesleri yenilendi."
+                                   ],
+                         "file":  "Cubrune-0.21.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.21.0/Cubrune-0.21.0.zip",
+                         "sha256":  "a79535c9847db6fccbbb6b819e31925825f1b0c6be36cddac6cf5cee2a9702e8",
+                         "size":  3592495
+                     },
+                     {
+                         "version":  "0.20.0",
+                         "date":  "2026-11-25",
+                         "notes":  [
+                                       "Köyler beş döşeli ev, meslek işlikleri, sulanan tarlalar ve bir ağıl ile büyüdü. Köylülerle konuşabilir, takas ve pazarlık yapabilirsin.",
+                                       "Yetişkin ve çocuk köylüler ayrı görünümlere sahip. Hava kararana kadar çalışır, sohbet eder, arkadaşlık kurar, tartışır ve meydanda oyun oynar.",
+                                       "Çapalama, sulama, ekim, hasat ve hayvan besleyip yavrulatma eklendi. Koyun, inek, domuz, tavuk, yaban domuzu, ormankurdu ve yeni Pofuduk modelleri geldi. İnekten süt, koyundan yün ve tavuktan yumurta toplanabiliyor.",
+                                       "Yatak, sandık, çit, çit kapısı, halı, üç meşale, yatay ve dikey yarım basamak eklendi. Kapı ve basamakların seçim çizgisi kendi geometrisini takip ediyor.",
+                                       "Fırın rafları bir kömürle sekiz iş yapıyor. Komşu sandıklar üretim tezgâhlarına ve fırına malzeme veriyor.",
+                                       "Ray üzerinde vagon sürüşü, rün kitapları, örs, altı yeni cevher, geniş mağaralar ve iki mahzen bekçisi eklendi.",
+                                       "Blok ikonları 3B biçimleriyle çiziliyor. Shift + rakam hızlı erişim yuvasına taşır. X sol ele yuva atar, Alt + sağ tık sol eldeki eşyayı kullanır.",
+                                       "Su akıntısı, dalış, nefes ve yatay yüzme eklendi. Yemek birkaç ısırıkta yenir ve tokken tüketilemez. Havadan iniş vuruşları daha güçlü.",
+                                       "Sıcak meşale ışığı, su yansımaları ve envanter ile harita arasındaki ortak sekmeler yenilendi."
+                                   ],
+                         "file":  "Cubrune-0.20.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.20.0/Cubrune-0.20.0.zip",
+                         "sha256":  "ed4675484f27f9ca28bd355d072558fc3fc63dd0a8bf1c0512227955fa4f9540",
+                         "size":  3312548
+                     },
+                     {
+                         "version":  "0.19.0",
+                         "date":  "2026-11-25",
+                         "notes":  [
+                                       "Karakterin omuzları ve kolları yürürken serbestçe salınıyor. Kılıç, bıçak, mızrak ve çift bıçak farklı saldırı hareketleri kullanıyor.",
+                                       "Avcı Yayı iki elle geriliyor. Basılı tutma süresi okun hızını ve hasarını belirliyor. Gezgin Kalkanı G ile sol ele kuşanılıyor ve önden gelen darbeleri azaltıyor.",
+                                       "Yeni dünyalarda aynı tohum ve ayarlarda aynı yerde oluşan köyler var. Köy evleri ve köylü kıyafetleri biyoma göre değişiyor.",
+                                       "İki parçalı açılır kapı, yönlü ahşap ve taş merdiven, ince cam, ahşap kiriş ve pişmiş kiremit üretilebiliyor.",
+                                       "Bizon, ulu geyik, kaya keçisi, antilop, kar tavşanı, kum kertenkelesi, balıkçıl, ispinoz ve kartal kendi biyomlarında görülebiliyor.",
+                                       "Envantere silah filtresi, kalkan yuvası ve seçilen tarif için daha büyük eşya görseli eklendi."
+                                   ],
+                         "file":  "Cubrune-0.19.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.19.0/Cubrune-0.19.0.zip",
+                         "sha256":  "a8cf2884d48406031837dc61ad3c7982e428d106d2393a2b542e82cce60173bd",
+                         "size":  3167297
+                     },
+                     {
+                         "version":  "0.18.0",
+                         "date":  "2026-11-25",
+                         "notes":  [
+                                       "Envanter portresi yalnızca karakteri gösteriyor ve baş imlece dönüyor. Hayatta kalmada yaratıcı sekmesi gizli.",
+                                       "Haritaya sağ tıkla isimli işaret eklenebiliyor. İşaretler yeniden adlandırılabiliyor, silinebiliyor ve dünyayla saklanıyor.",
+                                       "Dünya 45 saniyede bir ve çıkışta otomatik kaydediliyor. F5 bakış açısını değiştiriyor.",
+                                       "Kütük kabukları daha derin. Diz ve dirsek bükülmeleri yürüyüşe ve vuruşlara yansıyor. Eldeki eşyalar daha büyük.",
+                                       "Başlatıcı düzeni, arayüz renkleri ve yazı tipi yenilendi. Kenney’nin CC0 sesleri envanter, harita, üretim, adım ve alet hareketlerine eklendi."
+                                   ],
+                         "file":  "Cubrune-0.18.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.18.0/Cubrune-0.18.0.zip",
+                         "sha256":  "fd00185d02796050109f2acb7508d7585c568f6e272098c89716147a0231f7b5",
+                         "size":  3105138
+                     },
+                     {
+                         "version":  "0.17.0",
+                         "date":  "2026-11-25",
+                         "notes":  [
+                                       "Cubrune arması, ana menü ve izci karakterinin varsayılan görünümü yenilendi.",
+                                       "Üretim Masası iki yatay blok kaplıyor. Her iki tarafından açılabiliyor ve cep tariflerini de içeriyor.",
+                                       "Tahta, tuğla ve taş yüzeylere yeni kabartmalar eklendi. Çıkıntılar komşu blokların içine taşmıyor.",
+                                       "Yeni dünyalarda akarsu vadileri, platolar, tohuma göre değişen ada yükseltileri ve keşfedilebilir işaret yapıları var. Aynı tohum ve ayarlarla arazi ve bitki örtüsü tekrar üretilebiliyor."
+                                   ],
+                         "file":  "Cubrune-0.17.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.17.0/Cubrune-0.17.0.zip",
+                         "sha256":  "76a0f391247081c5cbc9b2112cf7eaa47801dd580adfaf2475101bf1f1e9a4f2",
+                         "size":  3043353
+                     },
+                     {
+                         "version":  "0.16.0",
+                         "date":  "2026-11-25",
+                         "notes":  [
+                                       "Yerleştirilen ve elde taşınan fenerler sıcak ışık yayıyor. Kristaller ve ışıltılı mantarlar mağaralara soğuk renkli ışık veriyor.",
+                                       "Su yüzeyi dalgalanıyor. Bitkiler rüzgârla daha belirgin hareket ediyor. Fenerlerin bakır, çerçeve ve cam dokuları ayrıntılandırıldı.",
+                                       "Birinci ve üçüncü şahısta vuruşlar hazırlık, temas ve toparlanma aşamalarına sahip. Koşu, sıçrama, iniş ve yüzme pozları eklendi.",
+                                       "Yaratıklar hızlarına göre adım atıyor, darbeye tepki veriyor ve saldırmadan önce hazırlanıyor. Geceleri ortaya çıkan Közkanat eklendi.",
+                                       "Yeni dünyalarda uygun araziye fenerli, bahçeli ve üretim tezgâhlı bir nöbetlik yapılıyor. Can ve açlık artık kendi çubuklarında gösteriliyor."
+                                   ],
+                         "file":  "Cubrune-0.16.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.16.0/Cubrune-0.16.0.zip",
+                         "sha256":  "d2e7f98745751e77a0d46b4f6e5798918f4a341f8bf07a64b44ee0e269916890",
+                         "size":  2995522
+                     },
+                     {
+                         "version":  "0.15.1",
+                         "date":  "2026-11-24",
+                         "notes":  [
+                                       "Doğal lav yalnızca derin mağaralarda, yer yer göller halinde oluşuyor. Sıvılar biyom bitkisi olarak yüzeye saçılmıyor.",
+                                       "Lav aşağı akıyor, zeminde yayılıyor ve oyuncu akan lavın sığ kenarına değdiğinde de hasar alıyor.",
+                                       "Su değdiğinde lav kaynağı obsidyene, akan lav taşa dönüşüyor.",
+                                       "Proje içindeki `run.bat` güncel yerel sürümü hazırlayıp başlatıcıyı açıyor."
+                                   ],
+                         "file":  "Cubrune-0.15.1.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.15.1/Cubrune-0.15.1.zip",
+                         "sha256":  "7ccae84ee3fc3cbf0bceb8fcfa5cd4979f6ddf3ac73b2379b4867c230720728f",
+                         "size":  2990783
+                     },
+                     {
+                         "version":  "0.15.0",
+                         "date":  "2026-11-24",
+                         "notes":  [
+                                       "Cep üretiminde başlangıç tarifleri var. Çalışma Masası ve Fırın yerleştirildikten sonra sağ tıkla açılıyor. Shift + sağ tık normal blok yerleştirmeye devam ediyor.",
+                                       "Gelişmiş alet ve yapı tarifleri Çalışma Masası\u0027nda. Cevher eritme, cam, tuğla ve sıcak yemekler Fırın\u0027da. Odun kömürü çoğu fırın tarifinde kömür yerine geçiyor.",
+                                       "Çelik alet takımı, odun kömürü, çelik külçe, deri şerit, bakır perçin, cam şişe ve üç yeni yiyecek eklendi. Bakır Fener bakır perçinle yapılıyor.",
+                                       "Varsayılan malzeme dokuları 32×32 olarak yeniden işlendi. Özel boyamalar ve Motor\u0027daki 32×32 / 64×64 doku grupları korunuyor.",
+                                       "Motor\u0027da tarifin üretim yeri seçiliyor. Kaydet + Test, kayıt başarısız olursa oyunu açmıyor. Birbirinin yerine geçebilen tarif malzemeleri aynı eşyayı iki kez saymıyor.",
+                                       "Launcher 0.15 öncesi arşiv sürümlerini ayrı veri klasörlerinde açıyor. Mevcut dünyalar 0.15.0 üzerinden açılmaya devam ediyor.",
+                                       "Sonsuz dünyada kayıtlı arazi kontrol edilmeden yeni arazi üretilmiyor. Okunamayan bölge dosyasının üstüne yeni arazi yazılmıyor."
+                                   ],
+                         "file":  "Cubrune-0.15.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.15.0/Cubrune-0.15.0.zip",
+                         "sha256":  "116a2e125143ba4c8969c39e6ac4d23a4ef9743273fc35a9627b36f3b3b5a71b",
+                         "size":  2999216
+                     },
                      {
                          "version":  "0.14.0",
                          "date":  "2026-11-24",
