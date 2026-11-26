@@ -1,6 +1,21 @@
 {
-    "latest":  "0.23.0",
+    "latest":  "0.23.1",
     "versions":  [
+                     {
+                         "version":  "0.23.1",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Pişiren fırının ve Aşçı Ocağı’nın ağzında titreyen bir ateş yanıyor.",
+                                       "Demir zırh güneşte beyaz değil, koyu gri metal gibi görünüyor.",
+                                       "Köylerin yakınında kare hızı yükseldi: görüş dışındaki yaratıklar çizilmiyor ve modelleri daha hızlı hazırlanıyor.",
+                                       "Eski bir dünyada kapının içinde kaydedilen oyuncu artık kapının üstüne fırlamıyor, yanındaki boş yere geçiyor.",
+                                       "Sınırlı dünyaların kenarından boşluğa düşülemiyor. İpuçlarındaki ayırıcı işaret “?” yerine nokta olarak görünüyor."
+                                   ],
+                         "file":  "Cubrune-0.23.1.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.1/Cubrune-0.23.1.zip",
+                         "sha256":  "80362d85b7da13c73433a5256eca52c70cf2ae48ddfe043597c3da1dcc1d28f1",
+                         "size":  4022016
+                     },
                      {
                          "version":  "0.23.0",
                          "date":  "2026-11-26",
