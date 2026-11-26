@@ -1,6 +1,20 @@
 {
-    "latest":  "0.23.1",
+    "latest":  "0.23.2",
     "versions":  [
+                     {
+                         "version":  "0.23.2",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "Sınırlı dünyalarda ve adalarda kara bittiği yerde duruyorsun: yürüyerek ya da zıplayarak boşluğa düşülmüyor. Hayvanlar ve köylüler de kenardan yürüyüp düşmüyor. Yaratıcı modda uçarak geçilebilir.",
+                                       "Görüş dışındaki yaratıkların gölgeleri, gün doğumu ve batımında görüşe uzanıyorsa yine çiziliyor.",
+                                       "Eski kayıttan yüklenen oyuncu dar bir boşlukta tavanı aşıp üst odaya taşınmıyor. Su altında kaydedilen oyuncu yerinde kalıyor.",
+                                       "Görünmez sınıra yürürken adım sesi ve sallanma kesiliyor. Uzun özel yaratık modelleri ekran kenarında kaybolmuyor."
+                                   ],
+                         "file":  "Cubrune-0.23.2.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.2/Cubrune-0.23.2.zip",
+                         "sha256":  "5e168655499abbd61bbb4fbabd5d8a1cfd7d42bbe3aadf4856bfedfccc606581",
+                         "size":  4031510
+                     },
                      {
                          "version":  "0.23.1",
                          "date":  "2026-11-26",
