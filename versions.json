@@ -1,6 +1,26 @@
 {
-    "latest":  "0.22.2",
+    "latest":  "0.23.0",
     "versions":  [
+                     {
+                         "version":  "0.23.0",
+                         "date":  "2026-11-26",
+                         "notes":  [
+                                       "Görsel elden geçirme: yatak artık ahşap çerçeveli, yastıklı ve battaniyeli gerçek bir yatak. Seçim çizgisi parçanın tamamını tek kutuyla çevreliyor.",
+                                       "Örs, Rün İşleme Masası, Çiftçi Tezgâhı, Aşçı Ocağı, fırın, üretim masası ve sandık yeniden modellendi: boynuzlu örs, eğimli yazı masası ve mürekkep hokkası, tohum tepsileri, ateşli ocak ve tencere, perçinli sandık.",
+                                       "Çitler komşu çitlere, kapılara ve bloklara bağlanıyor. Tek direk, köşe ve T birleşimleri doğru görünüyor ve çarpışma da buna uyuyor. Kapılar ve çit kapıları menteşesi üzerinde dönüyor.",
+                                       "Meşaleler, fenerler, halı, raylar ve maden vagonu yeni modellerle geldi.",
+                                       "Tüm köylüler biyomlarına göre yeniden giydirildi. Kadın, erkek ve çocuk ayrı görünüyor. Mahzen ve Kor bekçileri artık yürüyor.",
+                                       "Bütün hayvan ve yaratık modelleri yenilendi: tüy, yün ve pul dokuları, belirgin gözler, boynuz, gaga ve toynaklar.",
+                                       "Zırh vücuda oturuyor: kaskın yüzü açık, omuzluklar küçüldü, göğüslük ve kolluklar bantlı ve perçinli.",
+                                       "Eşya ikonlarına çerçeve eklendi. Kovalar, et, boyalar, perçin, kayış ve yeni cevherler yeniden çizildi. Model ikonları yuvayı dolduruyor, elde ve yerde gerçek boyutlarında duruyor.",
+                                       "Daha önce dokunmadığın varsayılan modeller kendiliğinden yenisiyle değişir. Motor’da düzenlediğin modeller korunur.",
+                                       "Motor’un model aracına desen, gölgeleme ve simetri düğmeleri, bloklara dönüş ve parça seçimi eklendi."
+                                   ],
+                         "file":  "Cubrune-0.23.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.0/Cubrune-0.23.0.zip",
+                         "sha256":  "1108a3fa77560da1f623bd66db0d5792b810ce7c246439bf679fac2d08c492a8",
+                         "size":  4008759
+                     },
                      {
                          "version":  "0.22.2",
                          "date":  "2026-11-26",
