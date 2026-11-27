@@ -1,6 +1,18 @@
 {
-    "latest":  "0.23.3",
+    "latest":  "0.23.4",
     "versions":  [
+                     {
+                         "version":  "0.23.4",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "Geceler gerçekten kararıyor: ay ışığı daha soluk, bulutlar geceleri daha koyu, fenerler ve meşaleler daha çok öne çıkıyor. Parlaklık ayarını yükseltirsen geceler de aydınlanır.",
+                                       "Kalabalık sürülerde kare hızı neredeyse ikiye katlandı: uzaktaki yaratıklar daha az köşeli ama aynı görünen bir modelle çiziliyor, yakındakiler daha hızlı hazırlanıyor."
+                                   ],
+                         "file":  "Cubrune-0.23.4.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.4/Cubrune-0.23.4.zip",
+                         "sha256":  "826a7038dffc23b71a6fb47d7f2d98230ff86c303c1852acb9f91ed4fe864896",
+                         "size":  4035563
+                     },
                      {
                          "version":  "0.23.3",
                          "date":  "2026-11-27",
