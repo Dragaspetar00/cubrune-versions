@@ -1,6 +1,17 @@
 {
-    "latest":  "0.23.12",
+    "latest":  "0.23.13",
     "versions":  [
+                     {
+                         "version":  "0.23.13",
+                         "date":  "2026-11-28",
+                         "notes":  [
+                                       "Başlatıcı, bağlantı anlık koptuğunda sürüm listesini ve indirmeleri üç kez yeniden deniyor; kısa ağ kesintileri kurulumu yarıda bırakmıyor."
+                                   ],
+                         "file":  "Cubrune-0.23.13.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.13/Cubrune-0.23.13.zip",
+                         "sha256":  "8d154cf54f5de1127a9543b235fc2374a897edea6b1f6b927773a259bd91a45b",
+                         "size":  4066662
+                     },
                      {
                          "version":  "0.23.12",
                          "date":  "2026-11-28",
