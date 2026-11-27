@@ -1,6 +1,20 @@
 {
-    "latest":  "0.23.9",
+    "latest":  "0.23.10",
     "versions":  [
+                     {
+                         "version":  "0.23.10",
+                         "date":  "2026-11-28",
+                         "notes":  [
+                                       "Buğday ve havuç her büyüme aşamasında yeni modellerle: buğday filizden altın başaklara, havuç tüylü yapraklardan topraktan görünen turuncu omuzlara kadar.",
+                                       "Çitler ve çit kapıları daha alçak görünüyor ama yine de üstünden atlanamıyor.",
+                                       "Çit, çit kapısı, kapı ve diğer ince parçalarda aradaki boşluğa tıklamak artık parçayı seçiyor; arkadaki blok yanlışlıkla kırılmıyor. Oklar boşluklardan geçmeye devam ediyor.",
+                                       "Kapının bir yarısına blok koyarken blok doğru yüksekliğe yerleşiyor."
+                                   ],
+                         "file":  "Cubrune-0.23.10.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.10/Cubrune-0.23.10.zip",
+                         "sha256":  "d567e35376acbb520ddfc3499f786c9ee17cc9eefda88fddbc3c9d105e88d470",
+                         "size":  4066341
+                     },
                      {
                          "version":  "0.23.9",
                          "date":  "2026-11-27",
