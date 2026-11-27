@@ -1,6 +1,17 @@
 {
-    "latest":  "0.23.10",
+    "latest":  "0.23.11",
     "versions":  [
+                     {
+                         "version":  "0.23.11",
+                         "date":  "2026-11-28",
+                         "notes":  [
+                                       "Başlatıcı sürüm indirirken ve kurarken artık siyah komut penceresi açmıyor, başka programlarda çalışırken öne gelmiyor. Motor’daki dosya seçme penceresi de boş komut penceresi açmıyor."
+                                   ],
+                         "file":  "Cubrune-0.23.11.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.11/Cubrune-0.23.11.zip",
+                         "sha256":  "09f9269775884a7b1164697479c3eb74229be32f5de706577f44cdedc4fce715",
+                         "size":  4066389
+                     },
                      {
                          "version":  "0.23.10",
                          "date":  "2026-11-28",
