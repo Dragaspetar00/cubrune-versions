@@ -1,6 +1,17 @@
 {
-    "latest":  "0.23.11",
+    "latest":  "0.23.12",
     "versions":  [
+                     {
+                         "version":  "0.23.12",
+                         "date":  "2026-11-28",
+                         "notes":  [
+                                       "Kapalı çit kapısı görünen raylarından bağımsız, düz bir engel gibi davranıyor; görünmeyen eski raylara takılma kalmadı. Oklar yine raylar arasından geçiyor."
+                                   ],
+                         "file":  "Cubrune-0.23.12.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.12/Cubrune-0.23.12.zip",
+                         "sha256":  "c3ac35725deb80afa4a2e84a195d03304b5992a251348a404c950f1c25de142a",
+                         "size":  4066645
+                     },
                      {
                          "version":  "0.23.11",
                          "date":  "2026-11-28",
