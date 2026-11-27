@@ -1,6 +1,17 @@
 {
-    "latest":  "0.23.4",
+    "latest":  "0.23.5",
     "versions":  [
+                     {
+                         "version":  "0.23.5",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "Uzaktaki yaratıklar sade ve ayrıntılı model arasında gidip gelmiyor: geçiş sınırına bir bloklük pay eklendi."
+                                   ],
+                         "file":  "Cubrune-0.23.5.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.5/Cubrune-0.23.5.zip",
+                         "sha256":  "813160c2b850d69469c322ecf59523e00b0011e7ea4743def9e7b766a9ca805c",
+                         "size":  4035986
+                     },
                      {
                          "version":  "0.23.4",
                          "date":  "2026-11-27",
