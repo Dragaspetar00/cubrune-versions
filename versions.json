@@ -1,6 +1,19 @@
 {
-    "latest":  "0.23.2",
+    "latest":  "0.23.3",
     "versions":  [
+                     {
+                         "version":  "0.23.3",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "Gün doğumu ve batımında kare hızı yükseldi: görüş dışında kalıp yalnızca gölgesi görünen yaratıklar sadece gölge olarak çiziliyor.",
+                                       "Uzun gölgeler çimen ve çiçeklerin üzerinde kesilmiyor.",
+                                       "Hata ayıklama ekranı gölge çizimini ve boşluğa düşen yaratık sayısını gösteriyor."
+                                   ],
+                         "file":  "Cubrune-0.23.3.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.3/Cubrune-0.23.3.zip",
+                         "sha256":  "a1c22ae35abf3369510d8a83afe7acd937c59cd623eb82340600a7bae27e8752",
+                         "size":  4040689
+                     },
                      {
                          "version":  "0.23.2",
                          "date":  "2026-11-27",
