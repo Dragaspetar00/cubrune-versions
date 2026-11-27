@@ -1,6 +1,17 @@
 {
-    "latest":  "0.23.7",
+    "latest":  "0.23.8",
     "versions":  [
+                     {
+                         "version":  "0.23.8",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "Çok sayıda çatlak blok olan yerlerde (uzun kazılar) çatlak blok modelleri her karede yeniden hazırlanmıyor, yalnızca değiştiklerinde güncelleniyor."
+                                   ],
+                         "file":  "Cubrune-0.23.8.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.8/Cubrune-0.23.8.zip",
+                         "sha256":  "ee13afe2497c99bbac3712fcfb28e083647c169c6b16a963c681e0b71da8c32a",
+                         "size":  4051481
+                     },
                      {
                          "version":  "0.23.7",
                          "date":  "2026-11-27",
