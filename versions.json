@@ -1,6 +1,19 @@
 {
-    "latest":  "0.23.6",
+    "latest":  "0.23.7",
     "versions":  [
+                     {
+                         "version":  "0.23.7",
+                         "date":  "2026-11-27",
+                         "notes":  [
+                                       "İnce cam paneller köşelerde ve T birleşimlerinde birbirine bağlanıyor, köşede boşluk kalmıyor. Duvardaki pencere camları düz kalıyor.",
+                                       "Parlaklık ayarı gece her aralıkta eşit etki ediyor. En düşük ayarda karanlık yüzeyler renklerini koruyor.",
+                                       "Cam panelin yanına blok koyarken panel oyuncunun içine uzamıyor."
+                                   ],
+                         "file":  "Cubrune-0.23.7.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.23.7/Cubrune-0.23.7.zip",
+                         "sha256":  "f48963c046f48710c04fcf9569034bc42e01c193d68644b20e96d0252c52fca3",
+                         "size":  4050847
+                     },
                      {
                          "version":  "0.23.6",
                          "date":  "2026-11-27",
