@@ -1,6 +1,23 @@
 {
-    "latest":  "0.23.13",
+    "latest":  "0.24.0",
     "versions":  [
+                     {
+                         "version":  "0.24.0",
+                         "date":  "2026-11-28",
+                         "notes":  [
+                                       "Yatak, üretim masası, fırın, aşçı ocağı, örs, rün masası, çiftçi tezgâhı ve sandık konduğu yöne göre yerleşir, önü oyuncuya bakar. Kapılar oyuncunun durduğu yana göre takılır; duvar meşalesi tıklanan duvara asılır.",
+                                       "Aletler, silahlar, zırhlar, yay, kalkan, makas ve çapa kullandıkça aşınır ve kırılır. Eşyanın üzerine gelince hasar, kazı gücü, zırh, yemek değeri ve kalan dayanıklılık yazar; yuvanın altında dayanıklılık çubuğu görünür.",
+                                       "Köylü takas ekranında köylünün adı, mesleği ve takas edilen eşyaların simgeleri görünür.",
+                                       "Lav yanıcı blokları tutuşturur; yangın sınırlı yayılır, söner, suyla söndürülür. Yanan sandık ve fırınlar içindekileri yere döker. Lavda ya da alevde kalan oyuncu ve yaratıklar bir süre yanar; lava düşen eşyalar yok olur.",
+                                       "Yeni dünyalarda köyler büyüdü: yeni evler, gözcü kulesi, tarlalar ve Muhafız, Çoban, Yapı Ustası, Avcı meslekleri. Herkes mesleğine göre giyinir. Köylüler canavar görünce evine kaçar, yakalanınca savaşır; muhafızlar köyü korur, çiftçiler hasat yapar, yapı ustası yeni ev inşa eder.",
+                                       "Geceleri Yağmacı çeteleri köylere baskın yapar. Köyü kurtarana köylüler hediye verir ve o köy kalıcı indirim yapar.",
+                                       "Çok sayıda özel bloğu olan eski içerik açılmaya devam eder; içerik yüklenemezse dünya kaydedilmez ve oyun bunu bildirir. Başlatıcı ve test pencereleri artık öne gelmez."
+                                   ],
+                         "file":  "Cubrune-0.24.0.zip",
+                         "url":  "https://github.com/Dragaspetar00/cubrune-versions/releases/download/v0.24.0/Cubrune-0.24.0.zip",
+                         "sha256":  "387551997ad9403955c37e9161a2f9df26f0102ade1795d6d5afff68f77959e9",
+                         "size":  4151542
+                     },
                      {
                          "version":  "0.23.13",
                          "date":  "2026-11-28",
